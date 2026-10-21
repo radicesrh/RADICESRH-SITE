@@ -54,7 +54,7 @@ Site institucional da **Radices Gestão de Pessoas** (www.radicesrh.com), pronto
 
 ## Miniatura de compartilhamento
 
-Ao enviar o site no WhatsApp, Instagram, LinkedIn, Facebook e e-mail, aparece uma prévia com a logo, o slogan e uma foto da equipe. A imagem é `img/og-radices.jpg` (1200 x 630 px). Para trocá-la, substitua esse arquivo mantendo o mesmo nome e tamanho.
+Ao enviar o site no WhatsApp, Instagram, LinkedIn, Facebook e e-mail, aparece uma prévia só com a logo da Radices, em fundo preto. A imagem é `img/og-radices-logo.jpg` (1200 x 630 px). Para trocá-la, substitua esse arquivo mantendo o mesmo nome e tamanho (se mudar o nome, atualize também as tags `og:image` e `twitter:image` das páginas).
 
 Os aplicativos guardam a prévia por um tempo. Se ela não atualizar depois de publicar, use o depurador do Facebook (developers.facebook.com/tools/debug) e clique em "Buscar novas informações", ou envie o link com um `?v=2` no final.
 
