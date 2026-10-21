@@ -40,7 +40,7 @@ Site institucional da **Radices Gestão de Pessoas** (www.radicesrh.com), pronto
 ├── index.html, *.html     páginas do site
 ├── css/style.css          visual
 ├── js/main.js             menu, animações e formulário
-├── img/                   imagens e logos
+├── img/                   imagens, logos e miniatura de compartilhamento
 ├── sitemap.xml            ajuda o Google a encontrar as páginas
 ├── robots.txt             orientações para buscadores
 ├── .htaccess              compressão e cache (hospedagens Apache)
@@ -51,6 +51,12 @@ Site institucional da **Radices Gestão de Pessoas** (www.radicesrh.com), pronto
 
 - **Aba Vagas:** aparece no menu de todas as páginas e leva para `radicesrh.com/vagas`. Essa página (`vagas/index.html`) exibe a lista de vagas da plataforma dentro do próprio site, com o cabeçalho e o rodapé da Radices, e o endereço do navegador continua sendo o do seu domínio.
 - **Instagram e LinkedIn:** os botões ficam no rodapé de todas as páginas. Para ativá-los, abra `js/main.js` e cole os links dos perfis no bloco `REDES`, no início do arquivo. Enquanto estiverem vazios, os botões não levam a lugar nenhum.
+
+## Miniatura de compartilhamento
+
+Ao enviar o site no WhatsApp, Instagram, LinkedIn, Facebook e e-mail, aparece uma prévia com a logo, o slogan e uma foto da equipe. A imagem é `img/og-radices.jpg` (1200 x 630 px). Para trocá-la, substitua esse arquivo mantendo o mesmo nome e tamanho.
+
+Os aplicativos guardam a prévia por um tempo. Se ela não atualizar depois de publicar, use o depurador do Facebook (developers.facebook.com/tools/debug) e clique em "Buscar novas informações", ou envie o link com um `?v=2` no final.
 
 ## Observações
 
