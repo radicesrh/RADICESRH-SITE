@@ -47,10 +47,10 @@ Site institucional da **Radices Gestão de Pessoas** (www.radicesrh.com), pronto
 └── README.md              este arquivo
 ```
 
-## Vagas e redes sociais
+## Vagas e Instagram
 
 - **Aba Vagas:** aparece no menu de todas as páginas e leva para `radicesrh.com/vagas`. Essa página (`vagas/index.html`) exibe a lista de vagas da plataforma dentro do próprio site, com o cabeçalho e o rodapé da Radices, e o endereço do navegador continua sendo o do seu domínio.
-- **Instagram e LinkedIn:** os botões ficam no rodapé de todas as páginas. Para ativá-los, abra `js/main.js` e cole os links dos perfis no bloco `REDES`, no início do arquivo. Enquanto estiverem vazios, os botões não levam a lugar nenhum.
+- **Instagram:** o botão fica no rodapé de todas as páginas e leva para https://www.instagram.com/radices.rh/ em uma nova aba.
 
 ## Miniatura de compartilhamento
 

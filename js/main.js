@@ -1,24 +1,3 @@
-/* ===== CONFIGURE AQUI SUAS REDES SOCIAIS =====
-   Cole entre as aspas o link completo do perfil. Exemplo:
-   instagram: 'https://www.instagram.com/radicesrh',
-   linkedin:  'https://www.linkedin.com/company/radicesrh'
-   Enquanto estiver vazio, o botão aparece mas não leva a lugar nenhum. */
-var REDES = {
-  instagram: '',
-  linkedin: ''
-};
-
-(function () {
-  document.querySelectorAll('[data-rede]').forEach(function (a) {
-    var url = REDES[a.getAttribute('data-rede')];
-    if (url) { a.href = url; }
-    else {
-      a.setAttribute('title', 'Em breve');
-      a.addEventListener('click', function (e) { e.preventDefault(); });
-    }
-  });
-})();
-
 (function () {
   var btn = document.querySelector('.menu-btn');
   var nav = document.getElementById('nav');
